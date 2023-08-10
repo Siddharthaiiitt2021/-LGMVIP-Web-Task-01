@@ -1,0 +1,91 @@
+body{
+  background-color: #4F64F5;
+  color: white;
+}
+
+h2{
+  text-align: center;
+  border-bottom-style: solid;
+  margin-bottom: 2rem;
+}
+
+#MainBody{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.125rem;
+  background-color: aqua;
+}
+
+#register{
+  background-color: #3544A6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#registered{
+  background-color: #3544A6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details{
+  display: flex;
+  margin: 1rem;
+}
+
+input{
+  border-style: none;
+  margin-left: 0.5rem;
+}
+
+p{
+  margin: 0px;
+}
+
+label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registered_details{
+  background-color: #CCC42F;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: right;
+  border-style: solid;
+}
+
+.list{
+  display: flex;
+}
+
+.deets{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+img{
+  margin-top: 1rem;
+  height: 5rem;
+  border-style: solid;
+}
+
+.student_img{
+  display: flex;
+  justify-content: right;
+}
+
+h6{
+  margin: 0px;
+}
+
+.student_details{
+  margin-bottom: 0.5rem;
+}
